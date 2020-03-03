@@ -7,6 +7,7 @@ phases:
       - ./gradlew assembleDebug
       - ls
       - ls gradlew
+      - ls prebuilt
 artifacts:
   files:
      - './android/app/build/outputs/**/*.apk'
