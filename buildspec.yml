@@ -1,6 +1,10 @@
 version: 0.2
 
+
 phases:
+  install:
+    runtime-version: 
+      openjdk: latest
   build:
     commands:
       - chmod +x ./gradlew
